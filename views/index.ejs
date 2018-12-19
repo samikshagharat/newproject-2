@@ -1,0 +1,14 @@
+<% include ./pages/slider.ejs %>
+
+<h1>index home
+
+</h1>
+<ul class="list-group">
+
+    <% for(let i=0; i < articles.length; i++){%>
+    <li class="p-6 list-group-item">
+
+        <%=  articles[i].title %>
+    </li>
+    <%}%>
+</ul>

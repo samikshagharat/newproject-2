@@ -1,0 +1,22 @@
+{
+  "name": "devconnector",
+  "version": "1.0.0",
+  "description": "social network for developer",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "samiksha gharat",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "mongoose": "^5.4.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "ejs": "^2.6.1",
+    "nodemon": "^1.18.9"
+  }
+}
